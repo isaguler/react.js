@@ -5,11 +5,8 @@ function Header() {
         <header>
             <nav className="nav-bar">
                 <img src={svgimg} alt="react" className="react-svg" />
-                <ul className="nav-items">
-                    <li>Pricing</li>
-                    <li>About</li>
-                    <li>Contact</li>
-                </ul>
+                <h3 className="react-facts">ReactFacts</h3>
+                <h5>React Course - Project 1</h5>
             </nav>
         </header>
     )

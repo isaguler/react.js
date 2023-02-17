@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    background: #23252C;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    background: url("./assets/fotoğraf.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 44px;
+}
+
+.info {
+    background: #1A1B21;
+    height: 200px;
+    width: 317px;
+    border-radius: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.info > h1 {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.info > h4 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F3BF99;
+}
+
+.info > a {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.info-buttons-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.email-btn {
+    background: #EA4335;
+    height: 34px;
+    width: 115px;
+    left: 151px;
+    top: 468px;
+    border-radius: 6px;
+    padding: 9px 13px 9px 11px;
+    color: white;
+    border: none;
+}
+
+.linked-in-btn {
+    background: #5093E2;
+    height: 34px;
+    width: 115px;
+    left: 283px;
+    top: 468px;
+    border-radius: 6px;
+    padding: 9px 13px 9px 11px;
+    color: white;
+    border: none;
+}
+
+.about {
+    background: #1A1B21;
+    height: 150px;
+    width: 317px;
+    text-align: left;
+}
+
+.about > h3, p {
+    padding-left: 36px;
+}
+
+.about > p {
+    font-size: x-small;
+    height: 61px;
+    width: 247px;
+    left: 152px;
+    top: 561px;
+    border-radius: nullpx;
+}
+
+.footer {
+    background: #161619;
+    height: 64px;
+    width: 317px;
+    left: 116px;
+    top: 760px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo-social-media {
+    background: #918E9B;
+    height: 25px;
+    width: 25px;
+    left: 189px;
+    top: 779px;
+    border: 10px;
+}
+

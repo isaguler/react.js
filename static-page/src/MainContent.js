@@ -1,12 +1,12 @@
 function MainContent() {
     return (
-        <div>
-            <h1>React Static Web Page Demo</h1>         
+        <div className="main-content-div">
+            <h1>Fun Facts About React</h1>         
             <ul className="fact-list">
-                <li>Fact-1</li>
-                <li>Fact-2</li>
-                <li>Fact-3</li>
-                <li>Fact-4</li>
+                <li>Released 2013</li>
+                <li>Creator Jordan WAlke</li>
+                <li>100K GitHub Stars</li>
+                <li>Enterprise Apps Plus Mobile Apps</li>
             </ul>
         </div>        
     )
