@@ -1,0 +1,45 @@
+.nav-bar {
+    background: #F55A5A;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.earth-png {
+    height: 24px;
+    width: 24px;
+    left: 213px;
+    top: 16px;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.content-div {
+    margin: 45px 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.image {
+    height: 168px;
+    width: 125px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.info-div {
+    max-height: 168px;
+}
+
+@media (max-width: 768px) {
+    .content-div {
+        min-height: 300px;
+    }
+
+    .image {
+        height: 300px;
+    }
+}
+
